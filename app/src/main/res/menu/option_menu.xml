@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newTab"
+        android:title="New Tab"
+        app:showAsAction="always"
+        android:icon="@drawable/pavate_tabs"/>
+    <item
+        android:id="@+id/privateTab"
+        app:showAsAction="ifRoom"
+        android:title="New incognito tab"
+        android:icon="@drawable/tabs"/>
+    <item
+        android:id="@+id/bookmark"
+        android:title="Bookmark"
+        android:icon="@drawable/bookmark"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        android:icon="@drawable/history"/>
+
+    <item android:title="social">
+        <menu>
+            <item android:title="download"
+                android:id="@+id/download"/>
+            <item android:title="share..."
+                android:id="@+id/share"/>
+        </menu>
+    </item>
+
+
+</menu>
