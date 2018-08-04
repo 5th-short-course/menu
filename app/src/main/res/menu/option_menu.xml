@@ -4,7 +4,7 @@
     <item
         android:id="@+id/newTab"
         android:title="New Tab"
-        app:showAsAction="always"
+        app:showAsAction="never"
         android:icon="@drawable/pavate_tabs"/>
     <item
         android:id="@+id/privateTab"
